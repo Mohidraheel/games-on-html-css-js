@@ -1,0 +1,55 @@
+body
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  
+}
+#mainheading
+{
+  text-align: center;
+}
+
+.grid-container
+{
+  display:grid;
+  grid-template-columns: 250px 150px 100px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#display
+{
+  padding:10px 5px;
+  font-size: 15px;
+}
+#date
+{
+  padding:10px 5px;
+  font-size: 15px;
+}
+
+.buttonss
+{
+  background-color: #259927;
+  color:white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding:15px 5px;
+  
+}
+
+.deletebut
+{
+  background-color: #fd0202;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 5px;
+}
